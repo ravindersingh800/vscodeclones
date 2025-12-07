@@ -1,2 +1,0 @@
-# vscodeclones
-all ui clones

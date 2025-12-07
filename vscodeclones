@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    header{
+        display: flex;
+        background-color: black;
+        height: 8vh;
+        border-bottom: 1px solid gray;
+    }
+    .c1{
+       text-transform: capitalize; 
+       width: 30vw;
+       border-right: 1px solid gray;
+       
+    }
+    .header-section{
+        display: flex;
+        text-transform: capitalize;
+        color: white;
+        list-style-type: none;
+        padding: 10px;
+        justify-content: space-between;
+       
+    }
+    .input-section{
+        width: 33vw;
+        color: white;
+        display: flex;
+        padding: 10px;
+        gap: 10px;
+        border-right: 1px solid gray;
+        justify-content: space-evenly;
+    
+    }
+    .c2-section{
+        display: flex;
+        list-style-type: none;
+        
+    }
+    .c3{
+        width: 36vw;
+    }
+    .a1{
+       display: flex;
+       padding: 10px;
+       color: white;
+       list-style-type: none;
+        justify-content: end;
+    }
+    .a1 li i{
+       padding-left: 30px; 
+    }
+    main{
+        display: flex;
+        height: 85vh;
+        background-color: black;
+        border-bottom: 1px solid gray;
+    }
+    .b1{
+        width: 4vw;
+        border-right: 1px solid gray;
+    }
+    .b4{
+        color: white;
+       font-size: 20px;
+    }
+    .b4 li{
+       padding: 10px;
+
+    }
+    .b2{
+        width: 25.7vw;
+        border-right: 1px solid gray;
+
+    }
+    
+    .b3{
+        width: 70.1vw;
+        
+
+    }
+    .b5{
+        color: white;
+        font-size: 20px;
+        margin-top: 200px;
+        
+    }
+    .b5 li{
+        padding: 10px;
+    }
+    footer{
+        display: flex;
+        height: 7vh;
+        background-color: black;
+    }
+    .ch1{
+        width: 60vw;
+        color: white;
+       
+    }
+    .u1{
+        display: flex;
+        list-style-type: none;
+        gap: 10px;
+        padding: 10px;
+    }
+    .ch2{
+     width: 40vw;
+    }
+    .u2{
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+        list-style-type: none;
+
+    }
+</style>
+<body>
+   <header>
+    <div class="c1">
+        <ul class="header-section">
+            <li><i class="fa-solid fa-v"></i></li>
+            <li>file</li>
+            <li>edit</li>
+            <li>selection</li>
+            <li>view</li>
+            <li>go</li>
+            <li>run</li>
+            <li>...</li>
+        </ul>
+    </div>
+    <div class="input-section">
+        <ul class="c2-section">
+            <li><i class="fa-solid fa-arrow-left"></i></li>
+            <li><i class="fa-solid fa-arrow-right"></i></li>
+        </ul>
+        <label for=""></label>
+        <input type="text" placeholder="vs code work">
+        <i class="fa-solid fa-message"></i>
+    </div>
+    <div class="c3">
+        <ul class="a1">
+            <li><i class="fa-solid fa-minus"></i></li>
+            <li><i class="fa-solid fa-square"></i></li>
+            <li><i class="fa-solid fa-xmark"></i></li>
+        </ul>
+    </div>
+   </header>
+   
+    
+   <main>
+    <div class="b1">
+        <ul class="b4">
+            <li><i class="fa-solid fa-file-export"></i></li>
+            <li><i class="fa-solid fa-magnifying-glass"></i></li>
+            <li><i class="fa-solid fa-code-branch"></i></li>
+            <li><i class="fa-solid fa-play"></i></li>
+            <li><i class="fa-solid fa-puzzle-piece"></i></li>
+        </ul>
+        <div >
+            <ul class="b5">
+            <li><i class="fa-solid fa-user"></i></li>
+            <li><i class="fa-solid fa-gear"></i></li>
+            </ul>
+        </div>
+    </div>
+    <div class="b2"></div>
+    <div class="b3"></div>
+   </main>
+   <footer>
+    <div class="ch1">
+        <ul class="u1">
+            <li><i class="fa-solid fa-laptop-code"></i></li>
+            <li><i class="fa-solid fa-triangle-exclamation"></i></li>
+        </ul>
+    </div>
+    <div class="ch2">
+        <ul class="u2">
+            <li>ln 183,col24</li>
+            <li>space:4</li>
+            <li>utf-8</li>
+            <li>crlf</li>
+            <li>{} html</li>
+            <li>port</li>
+            <li>prettier</li>
+        </ul>
+    </div>
+   </footer>
+</body>
+</html>
